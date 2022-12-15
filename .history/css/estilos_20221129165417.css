@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Quicksand:wght@300;400&display=swap');
+
+
+:root{
+    --background: linear-gradient(0deg, rgba(207, 219, 213, 0.5) 40%, rgba(83, 105, 118, 0.51) 60%);
+    --color-primary:#CFDBD5;
+    --color-secondary:#242423;
+    --boton-padding: 20px 40px;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+
+}
+
+.subtitle{
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+.hero{
+    height: 100vw;
+    background-image: var(--background), url(../assets/img/hero\ backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}   
+
+.hero contenedor{
+    padding: 0;
+}
+
+.hero_wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: right;
+    font-weight: 700;
+    
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 20px 15px;
+    margin-right: 40px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid white;
+}
+
+.nav__items--footer{
+    padding: 10px;
+}
+
+.hero__contenedor{
+    display: flex;
+    height: calc(100vw - 70px);
+    align-items: center;
+    color: white;
+}
+
+.hero_cta{
+    font-size: 24px;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero__texts{
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.hero__title{
+    font: 3.2rem;
+
+}
+
+.hero__subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 15px 0;
+}

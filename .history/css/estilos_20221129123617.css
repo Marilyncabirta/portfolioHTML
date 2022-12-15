@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Quicksand:wght@300;400&display=swap');
+</style>
+:root{
+    --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+    --color-primary:#667eea;
+    --color-secondary:#764ba2;
+    --boton-padding: 20px 40px;
+}
+body{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
