@@ -508,8 +508,9 @@ text-decoration: underline;
         justify-content: center;
     }
  
-    
-
-     .about__texts:nth-child(2), :nth-child(4){
+    .about__texts:nth-child(2), :nth-child(4){
         grid-row: 1/2;
      }
+
+     /* Footer */
+     
